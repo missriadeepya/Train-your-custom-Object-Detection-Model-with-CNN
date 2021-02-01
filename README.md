@@ -1,6 +1,6 @@
 # Train-your-custom-Object-Detection-Model-with-CNN
 
-## IMPORT NECESSARY MODULES ##
+## Import Necessary Modules ##
 ```
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -26,7 +26,7 @@ import xml.etree.ElementTree as ET
  
 drive.mount('/gdrive')
 ```
-## CREATE A NEW DATASET CLASS ##
+## Create a new Dataset Class ##
 ```
 class Dataset(object):
     """The base class for dataset classes.
